@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i 's/data class Client(/data class Client(\n    val customerId: String = "",\n    val altPhone: String = "",\n    val companyName: String = "",\n    val city: String = "",\n    val dealType: String = "نقدي",\n    val initialBalance: Double = 0.0,\n    val balanceType: String = "عليه لنا",\n    val paymentPeriod: String = "عند الطلب",\n    val defaultDueDateDays: Int = 0,\n    val clientType: String = "فرد",\n    val taxNumber: String = "",\n    val createdAt: Long = System.currentTimeMillis(),/g' app/src/main/java/com/example/data/model/Entities.kt

@@ -1,0 +1,4 @@
+                    if (selectedInvoiceItem == null) {
+                        OutlinedTextField(
+                            value = itemDropdownExpanded.toString(), // We reuse this variable as the search query
+                            onValueChange = { itemDropdownExpanded = it.toBoolean() }, // Wait, itemDropdownExpanded is a boolean. I need a new variable. Let's just create one.

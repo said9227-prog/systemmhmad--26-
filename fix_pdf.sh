@@ -1,0 +1,2 @@
+sed -i 's/paint.fontWeight = 700/paint.typeface = android.graphics.Typeface.create(android.graphics.Typeface.DEFAULT, android.graphics.Typeface.BOLD)/g' app/src/main/java/com/example/util/PdfExportManager.kt
+sed -i 's/paint.fontWeight = 400/paint.typeface = android.graphics.Typeface.create(android.graphics.Typeface.DEFAULT, android.graphics.Typeface.NORMAL)/g' app/src/main/java/com/example/util/PdfExportManager.kt

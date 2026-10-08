@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="database" path="client_accounts_pro_db"/>
+    <exclude domain="database" path="client_accounts_pro_db-shm"/>
+    <exclude domain="database" path="client_accounts_pro_db-wal"/>
+</full-backup-content>

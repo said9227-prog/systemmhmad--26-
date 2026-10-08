@@ -1,0 +1,6 @@
+{
+  "name": "الحكيمي للأدوية والمستلزمات الطبية",
+  "description": "تطبيق الحكيمي للأدوية والمستلزمات الطبية لإدارة حسابات العملاء، الفواتير، الديون والمقبوضات ودعم المزامنة السحابية عبر Google Drive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
